@@ -1,1 +1,71 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/D94-Q8ry)
+# GenAI-Based Stock Market Sentiment Analysis
+
+## Project Overview
+
+This project focuses on building an AI-powered stock market sentiment analysis system that automatically analyzes financial news articles to determine market sentiment and understand its potential impact on stock prices. By combining Natural Language Processing (NLP), Generative AI techniques, and Machine Learning, the project helps transform unstructured financial news into meaningful insights for investment decision-making.
+
+## Business Problem
+
+Financial markets are heavily influenced by news, public opinion, and market sentiment. Investors and analysts often find it difficult to process the large volume of daily financial news and evaluate its impact on stock prices. This project addresses that challenge by developing a sentiment analysis model capable of classifying news articles as **Positive**, **Neutral**, or **Negative**, while providing summarized insights to support data-driven investment strategies.
+
+## Objectives
+
+* Perform Exploratory Data Analysis (EDA) on stock news and market data.
+* Clean and preprocess financial news articles.
+* Generate contextual text embeddings using Sentence Transformers.
+* Train Machine Learning and Deep Learning models for sentiment classification.
+* Compare model performance using Accuracy, Precision, Recall, and F1-Score.
+* Identify the most effective model for predicting market sentiment.
+
+## Dataset
+
+The dataset contains:
+
+* News publication date
+* Financial news articles
+* Daily stock prices (Open, High, Low, Close)
+* Trading volume
+* Sentiment labels (Positive, Neutral, Negative)
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* TensorFlow / Keras
+* Sentence Transformers
+* Word2Vec
+
+## Project Workflow
+
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Text Embedding Generation
+5. Model Building
+6. Model Evaluation
+7. Performance Comparison
+8. Sentiment Prediction & Insights
+
+## Key Insights
+
+* Financial news sentiment shows a measurable relationship with stock market behavior.
+* Sentence Transformer embeddings outperform traditional Word2Vec representations.
+* Neural Network models trained with contextual embeddings achieved the best overall performance.
+* The best-performing model delivered an accuracy of approximately **55.7%** with balanced classification performance across sentiment classes.
+
+## Results
+
+The project demonstrates how Generative AI and NLP techniques can be integrated with Machine Learning to automate financial news analysis. The resulting sentiment predictions can support investors, analysts, and financial organizations in making more informed investment decisions.
+
+## Future Improvements
+
+* Fine-tune transformer models such as FinBERT or BERT.
+* Incorporate real-time financial news streams.
+* Deploy the model as a web application using Streamlit or Flask.
+* Integrate live stock market APIs for real-time sentiment monitoring.
+* Build an interactive dashboard for visualization and analysis.
